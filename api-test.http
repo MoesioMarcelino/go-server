@@ -1,0 +1,18 @@
+### Websocket
+http://localhost:8080/subscribe/d97c6313-bb84-4535-b34f-bb6f89fb644f
+
+### Create room
+POST http://localhost:8080/api/rooms
+content-type: application/json
+
+{
+  "theme": "This is a test room 2"
+}
+
+### Create new message
+POST http://localhost:8080/api/rooms/d1eae5ce-a2d3-497b-b3bb-27e9fd203652/messages
+content-type: application/json
+
+{
+  "message": "This is a test message 2"
+}
